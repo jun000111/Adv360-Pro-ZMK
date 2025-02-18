@@ -69,20 +69,20 @@
             compatible = "zmk,behavior-hold-tap";
             label = "NUMMOD";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <180>;
             quick_tap_ms = <175>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
 
             hold-trigger-key-positions = <23 24 25 41 42 43 55 56 57 70 71 72 73 10 9 11 12 26 44 58>;
-            hold-while-undecided;
+            retro-tap;
         };
 
         symbolMod: symbolMod {
             compatible = "zmk,behavior-hold-tap";
             label = "SYMBOLMOD";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <180>;
             quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
@@ -101,31 +101,19 @@
             flavor = "hold-preferred";
             bindings = <&mo>, <&kp>;
 
-            hold-trigger-key-positions = <47 48 49 50 31>;
+            hold-trigger-key-positions = <47 48 49 50 31 63 64>;
         };
 
         mouse: mouse {
             compatible = "zmk,behavior-hold-tap";
             label = "MOUSE";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <179>;
             quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
 
-            hold-trigger-key-positions = <48 49 50 31>;
-        };
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick_tap_ms = <175>;
-            flavor = "hold-preferred";
-            bindings = <&mo>, <&kp>;
-
-            hold-trigger-key-positions = <47 48 49 50 31 63 64>;
+            hold-trigger-key-positions = <17 30 31 32>;
         };
     };
 
