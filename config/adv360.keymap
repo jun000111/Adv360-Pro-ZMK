@@ -165,11 +165,11 @@
 
         mouse {
             bindings = <
-&trans  &trans          &trans          &trans          &trans           &trans  &trans                                               &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none   &trans                                               &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none   &trans     &trans     &trans         &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &none                         &trans         &trans                  &trans  &mkp MB4   &mkp MB5   &trans  &trans  &trans
-&trans  &trans          &none           &kp LC(LS(C))   &kp LS(LC(V))            &mkp LCLK  &mkp RCLK  &mkp MCLK      &trans  &trans  &trans          &trans     &trans     &trans  &trans  &trans
+&trans  &trans          &trans          &trans          &trans           &trans    &trans                                               &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none     &trans                                               &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4  &trans     &trans     &trans         &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &kp LC(Z)       &kp LC(X)       &kp LC(C)       &kp LC(V)        &mkp MB5                        &trans         &trans                  &trans  &mkp MB4   &mkp MB5   &trans  &trans  &trans
+&trans  &trans          &none           &kp LC(LS(C))   &kp LS(LC(V))              &mkp LCLK  &mkp RCLK  &mkp MCLK      &trans  &trans  &trans          &trans     &trans     &trans  &trans  &trans
             >;
         };
 
