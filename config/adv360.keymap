@@ -177,11 +177,11 @@
 
         mouse {
             bindings = <
-&trans  &trans          &trans          &trans        &trans           &trans  &trans                                               &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP  &msc SCRL_RIGHT  &none   &trans                                               &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none   &trans     &trans     &trans         &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &kp K_UNDO      &kp K_COPY      &kp K_CUT     &kp K_PASTE      &none                         &trans         &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans          &none           &none         &none                    &mkp LCLK  &mkp RCLK  &mkp MCLK      &trans  &trans  &trans          &trans     &trans     &trans  &trans  &trans
+&trans  &trans          &trans          &trans          &trans           &trans  &trans                                               &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none   &trans                                               &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none   &trans     &trans     &trans         &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans  &kp LC(Z)       &kp LC(C)       &kp LC(X)       &kp LC(V)        &none                         &trans         &trans                  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans          &none           &kp LC(LS(C))   &kp LS(LC(V))            &mkp LCLK  &mkp RCLK  &mkp MCLK      &trans  &trans  &trans          &trans     &trans     &trans  &trans  &trans
             >;
         };
 
@@ -197,11 +197,11 @@
 
         System {
             bindings = <
-&trans  &trans  &trans  &trans               &trans           &trans  &none                                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans               &trans           &trans  &none                                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LG(PRINTSCREEN)  &kp PRINTSCREEN  &trans  &none           &kp C_AL_LOCK  &kp C_POWER      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans               &trans           &trans                                 &kp C_SLEEP      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans               &trans                   &kp SCROLLLOCK  &kp CAPSLOCK   &kp C_PP         &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans               &trans           &trans  &none                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans               &trans           &trans  &none                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LG(PRINTSCREEN)  &kp PRINTSCREEN  &trans  &none           &kp LG(L)     &kp LG(X)      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans               &trans           &trans                                &none          &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans               &trans                   &kp SCROLLLOCK  &kp CAPSLOCK  &none          &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
