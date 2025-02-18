@@ -222,3 +222,17 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
+
+  noSaveQuit: noSaveQuit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESCAPE &kp COLON &kp Q &kp EXCL &kp ENTER>;
+            label = "NOSAVEQUIT";
+        };
+
+  saveQuit: saveQuit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESCAPE &kp COLON &kp W &kp Q &kp ENTER>;
+            label = "SAVEQUIT";
+        };
