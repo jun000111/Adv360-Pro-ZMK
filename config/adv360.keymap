@@ -113,7 +113,7 @@
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
 
-            hold-trigger-key-positions = <17 30 31 32 16 18 50 49 48 15 29 47 63 64 41 42 55 56>;
+            hold-trigger-key-positions = <17 30 31 32 16 18 50 49 48 15 29 47 63 64 41 42 55 56 51 33>;
         };
     };
 
