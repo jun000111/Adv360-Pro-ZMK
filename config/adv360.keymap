@@ -35,6 +35,13 @@
             label = "SAVEQUIT";
         };
 
+        go_sleep: go_sleep {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp H &kp I &kp L &kp E &kp SPACE &kp T &kp R &kp U &kp E &kp SPACE &kp SEMI &kp SPACE &kp D &kp O &kp SPACE &kp D &kp A &kp T &kp E &kp SPACE &kp SEMI &kp SPACE &kp S &kp L &kp E &kp E &kp P &kp SPACE &kp N3 &kp N0 &kp N0 &kp SEMI &kp SPACE &kp D &kp O &kp N &kp E &kp SEMI &kp ENTER>;
+            label = "GO_SLEEP";
+        };
+
         #endif
 
         hmr: homerow_mods_r {
@@ -127,7 +134,7 @@
             bindings = <
 &noSaveQuit  &kp N1           &kp N2           &kp N3        &kp N4             &kp N5  &mo 7                                                                            &mo 7               &kp N6  &kp N7              &kp N8        &kp N9            &kp N0            &saveQuit
 &kp TAB      &kp Q            &kp W            &kp F         &kp P              &kp B   &none                                                                            &none               &kp J   &kp L               &kp U         &kp Y             &kp SEMICOLON     &kp BSLH
-&kp ESC      &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G   &none                 &kp LCTRL         &kp LALT      &kp LGUI   &kp RCTRL       &none               &kp M   &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O  &kp SQT
+&kp ESC      &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G   &kp F2                &kp LCTRL         &kp LALT      &kp LGUI   &kp RCTRL       &kp LA(F4)          &kp M   &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O  &kp SQT
 &sk LSHFT    &kp Z            &kp X            &kp C         &kp D              &kp V                                           &kp HOME      &kp PG_UP                                      &kp K   &kp H               &kp COMMA     &kp DOT           &kp FSLH          &sk RSHFT
 &mo 5        &kp GRAVE        &kp CAPS         &kp LEFT      &kp RIGHT                  &copyMod 3 BACKSPACE  &numMod 2 DELETE  &kp END       &kp PG_DN  &mouse 4 ENTER  &symbolMod 1 SPACE          &kp UP              &kp DOWN      &kp LBKT          &kp RBKT          &mo 6
             >;
