@@ -236,3 +236,10 @@
             bindings = <&kp ESCAPE &kp COLON &kp W &kp Q &kp ENTER>;
             label = "SAVEQUIT";
         };
+
+  go_sleep: go_sleep {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp H &kp I &kp L &kp E &kp SPACE &kp T &kp R &kp U &kp E &kp SPACE &kp SEMI &kp SPACE &kp D &kp O &kp SPACE &kp D &kp A &kp T &kp E &kp SPACE &kp SEMI &kp SPACE &kp S &kp L &kp E &kp E &kp P &kp SPACE &kp N3 &kp N0 &kp N0 &kp SEMI &kp SPACE &kp D &kp O &kp N &kp E &kp SEMI &kp ENTER>;
+            label = "GO_SLEEP";
+        };
