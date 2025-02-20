@@ -133,7 +133,7 @@
         default_layer {
             bindings = <
 &noSaveQuit  &kp N1           &kp N2           &kp N3        &kp N4             &kp N5  &mo 7                                                                            &mo 7               &kp N6  &kp N7              &kp N8        &kp N9            &kp N0            &saveQuit
-&kp TAB      &kp Q            &kp W            &kp F         &kp P              &kp B   &none                                                                            &none               &kp J   &kp L               &kp U         &kp Y             &kp SEMICOLON     &kp BSLH
+&kp TAB      &kp Q            &kp W            &kp F         &kp P              &kp B   &kp F5                                                                           &go_sleep           &kp J   &kp L               &kp U         &kp Y             &kp SEMICOLON     &kp BSLH
 &kp ESC      &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G   &kp F2                &kp LCTRL         &kp LALT      &kp LGUI   &kp RCTRL       &kp LA(F4)          &kp M   &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O  &kp SQT
 &sk LSHFT    &kp Z            &kp X            &kp C         &kp D              &kp V                                           &kp HOME      &kp PG_UP                                      &kp K   &kp H               &kp COMMA     &kp DOT           &kp FSLH          &sk RSHFT
 &mo 5        &kp GRAVE        &kp CAPS         &kp LEFT      &kp RIGHT                  &copyMod 3 BACKSPACE  &numMod 2 DELETE  &kp END       &kp PG_DN  &mouse 4 ENTER  &symbolMod 1 SPACE          &kp UP              &kp DOWN      &kp LBKT          &kp RBKT          &mo 6
