@@ -49,7 +49,6 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <165>;
-            quick_tap_ms = <100>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
@@ -63,13 +62,13 @@
             label = "HML";
             #binding-cells = <2>;
             tapping-term-ms = <165>;
-            quick_tap_ms = <100>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
             hold-trigger-key-positions = <22 23 24 25 26 40 41 42 43 44 54 55 56 57 58 9 8 7 21 39 37 38 53 68 69 70 10 11 12 13 24 25 26 27 44 45 54 55 56 57 58 59 71 72 73 74 75>;
             retro-tap;
             require-prior-idle-ms = <(-1)>;
+            quick-tap-ms = <200>;
         };
 
         numMod: numMod {
@@ -77,12 +76,12 @@
             label = "NUMMOD";
             #binding-cells = <2>;
             tapping-term-ms = <180>;
-            quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
 
             hold-trigger-key-positions = <23 24 25 41 42 43 55 56 57 70 71 72 73 10 9 11 12 26 44 58>;
             retro-tap;
+            quick-tap-ms = <200>;
         };
 
         symbolMod: symbolMod {
@@ -90,13 +89,13 @@
             label = "SYMBOLMOD";
             #binding-cells = <2>;
             tapping-term-ms = <180>;
-            quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
 
             hold-trigger-key-positions = <14 15 16 17 18 19 28 29 30 31 32 33 46 47 48 49 50 51 60 61 62 63 64 65 66 51 65 66 41 42 43 44 55 56 6 5 4 2 1 0 3 67 52 36 35 20 34>;
             require-prior-idle-ms = <10>;
             retro-tap;
+            quick-tap-ms = <200>;
         };
 
         copyMod: copyMod {
@@ -104,11 +103,12 @@
             label = "COPYMOD";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            quick_tap_ms = <175>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
 
             hold-trigger-key-positions = <47 48 49 50 31 63 64>;
+            quick-tap-ms = <200>;
+            retro-tap;
         };
 
         mouse: mouse {
@@ -116,11 +116,12 @@
             label = "MOUSE";
             #binding-cells = <2>;
             tapping-term-ms = <179>;
-            quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
 
             hold-trigger-key-positions = <17 30 31 32 16 18 50 49 48 15 29 47 63 64 41 42 55 56 51 33>;
+            quick-tap-ms = <200>;
+            retro-tap;
         };
     };
 
