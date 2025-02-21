@@ -94,7 +94,7 @@
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
 
-            hold-trigger-key-positions = <14 15 16 17 18 19 28 29 30 31 32 33 46 47 48 49 50 51 60 61 62 63 64 65 66 51 65 66 41 42 43 44 55 56>;
+            hold-trigger-key-positions = <14 15 16 17 18 19 28 29 30 31 32 33 46 47 48 49 50 51 60 61 62 63 64 65 66 51 65 66 41 42 43 44 55 56 6 5 4 2 1 0 3 67 52 36 35 20 34>;
             require-prior-idle-ms = <10>;
             retro-tap;
         };
